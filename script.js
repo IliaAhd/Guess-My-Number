@@ -78,7 +78,7 @@ document.querySelector(".again").addEventListener("click", function () {
 
   // high score reset condition
   if (highScore >= 20) {
-    score = 0;
+    highScore = 0;
     showHighScore('0');
   }
 });
